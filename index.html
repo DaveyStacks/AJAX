@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>It's GIPHY Time!!</title>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Giphy Search</h1>
+    <h3>Click a button to return 10 relative GIFs</h3>
+
+    <!-- Movies will get dumped here -->
+    <div id="gifs-view"></div>
+<br>
+<br><br><br>
+    <form id="gifs-form">
+      <label for="gifs-input">Add new GIF Search Button :</label>
+      <input type="text" id="gifs-input"><br>
+
+      <!-- Button triggers new movie to be added -->
+      <input class="gif-submit" id="add-gifs" type="submit" value="Add a GIF Search  ">
+    </form>
+    <div class="click-header" id="header-3"> <h2>Click a GIF to animate it!</h2></div>
+    <div id="gifs-images"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
+  </div>
+</body>
+
+</html>
