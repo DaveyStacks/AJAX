@@ -49,7 +49,7 @@ body {
     color: white;
   }
 
-  h3, #gifs-form {
+  h3, #gifs-form, p {
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 30px;
